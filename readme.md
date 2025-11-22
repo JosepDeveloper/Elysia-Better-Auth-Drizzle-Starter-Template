@@ -60,7 +60,7 @@ bunx drizzle-kit push
 
 ```bash
 bun run dev
-```-->-->
+```-->
 
 ---
 
