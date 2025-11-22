@@ -1,0 +1,28 @@
+type: http_request
+model: http_request
+id: rq_NXGNSwEH86
+createdAt: 2025-11-22T22:03:34.798288373
+updatedAt: 2025-11-22T22:46:13.250074090
+workspaceId: wk_MA9Wsx2aeb
+folderId: fl_JLiQoR4wir
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+      "name": "JosepDev",
+      "email": "josepdev@gmail.com",
+      "password": "123456789*"
+    }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: 7zMkQPgr4u
+method: POST
+name: HOST/
+sortPriority: 1999.9999
+url: ${[ HOST ]}/api/auth/sign-up/email
+urlParameters: []

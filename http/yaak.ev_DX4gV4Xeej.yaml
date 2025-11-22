@@ -1,0 +1,18 @@
+type: environment
+model: environment
+id: ev_DX4gV4Xeej
+workspaceId: wk_MA9Wsx2aeb
+createdAt: 2025-11-21T19:48:50.513370171
+updatedAt: 2025-11-22T22:05:26.821025517
+name: Global Variables
+public: true
+base: true
+parentModel: workspace
+parentId: null
+variables:
+- enabled: true
+  name: HOST
+  value: localhost:3000
+  id: PqZwDQJFtT
+color: null
+sortPriority: 0.0
