@@ -117,7 +117,6 @@ Thanks for considering contributing! ❤️
 * Follow the existing code style
 * Keep PRs small and focused
 * Add/update documentation if needed
-* Include tests when applicable
 
 ---
 
