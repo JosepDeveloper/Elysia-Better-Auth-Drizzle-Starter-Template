@@ -1,7 +1,7 @@
 {
   "version": "6",
   "dialect": "sqlite",
-  "id": "f52c45f0-ea05-4e54-b824-0c9e8fb44b9e",
+  "id": "c34cdcf3-30e4-4ecf-98ec-a18cbfe5b5a4",
   "prevId": "00000000-0000-0000-0000-000000000000",
   "tables": {
     "client": {
@@ -29,7 +29,15 @@
           "autoincrement": false
         }
       },
-      "indexes": {},
+      "indexes": {
+        "client_email_unique": {
+          "name": "client_email_unique",
+          "columns": [
+            "email"
+          ],
+          "isUnique": true
+        }
+      },
       "foreignKeys": {},
       "compositePrimaryKeys": {},
       "uniqueConstraints": {},

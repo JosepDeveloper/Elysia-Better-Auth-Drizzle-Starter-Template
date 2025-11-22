@@ -2,7 +2,7 @@ import { Elysia } from "elysia";
 import { Client } from "./service";
 import { ClientModel } from "./model";
 
-export const clients = new Elysia({ prefix: "/clients" })
+export const clients = new Elysia({ prefix: "/api/clients" })
   .get(
     "/",
     async () => {

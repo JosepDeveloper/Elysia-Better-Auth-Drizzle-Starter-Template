@@ -1,27 +1,10 @@
 import { Elysia } from "elysia";
 import { clients } from "./modules/clients";
 import { logger } from "@bogeychan/elysia-logger";
-import { openapi } from "@elysiajs/openapi";
+import { auth } from "./utils/auth";
 
 const app = new Elysia()
-  .use(
-    openapi({
-      documentation: {
-        components: {
-          schemas: {
-            Client: {
-              type: "object",
-              properties: {
-                id: { type: "string" },
-                name: { type: "string" },
-                email: { type: "string" },
-              },
-            },
-          },
-        },
-      },
-    }),
-  )
+  .mount(auth.handler)
   .use(
     logger({
       transport: {

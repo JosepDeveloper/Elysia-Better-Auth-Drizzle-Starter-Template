@@ -1,1 +1,0 @@
-CREATE UNIQUE INDEX `client_email_unique` ON `client` (`email`);

@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_5oaycqZHD4
 createdAt: 2025-11-21T19:50:23.910423834
-updatedAt: 2025-11-22T02:10:23.682299449
+updatedAt: 2025-11-22T22:10:42.839760008
 workspaceId: wk_MA9Wsx2aeb
 folderId: fl_DStf4fmDj3
 authentication: {}
@@ -22,6 +22,6 @@ headers:
   id: FNuRV09Bym
 method: POST
 name: Save Client
-sortPriority: -1763754548822.0
-url: ${[ HOST ]}/clients
+sortPriority: 2000.0
+url: ${[ HOST ]}/api/clients
 urlParameters: []
